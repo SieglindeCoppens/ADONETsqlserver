@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[cursusSQL]
+(
+	[Id] INT NOT NULL IDENTITY,
+	[cursusnaam] NVARCHAR(50) NULL, 
+	PRIMARY KEY CLUSTERED ([Id] ASC)
+)
+
